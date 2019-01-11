@@ -54,8 +54,8 @@ public class CalcularEdad {
             diaResultado = diaActual;
             anyResultado = Math.abs(anyo - anyoActual);
 
-            System.out.println("Tienes " + anyResultado + " años" + ", " + mesResultado
-                    + " meses " + " y " + diaResultado + " días");
+            System.out.println("Tienes " +diaResultado + " días"  + ", " + mesResultado
+                    + " meses " + " y "+anyResultado + " años" );
         } catch (Exception ex) {
             System.out.println("Ha habido un error en el cálculo realizado" + ex.toString());
         }
