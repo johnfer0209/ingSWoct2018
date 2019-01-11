@@ -56,6 +56,12 @@ public class CalcularEdad {
 
             System.out.println("Tienes " +diaResultado + " días"  + ", " + mesResultado
                     + " meses " + " y "+anyResultado + " años" );
+            //Modificamos el codigo para aplicar la funcionalidad de indicar si es mayor de Edad
+            if(anyo>=18){
+                System.out.println("Usted es mayor de Edad");                     
+            }else {
+                System.out.println("Usted es menor de Edad");
+            }
         } catch (Exception ex) {
             System.out.println("Ha habido un error en el cálculo realizado" + ex.toString());
         }
